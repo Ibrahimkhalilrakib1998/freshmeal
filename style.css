@@ -1,0 +1,167 @@
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    padding:0.75rem 7rem;
+    margin:0 auto ;
+    
+}
+
+nav.topnav .container{
+    background: rgb(160, 65, 65);
+}
+nav.topnav .container .social i , nav.topnav .container .auth i{
+padding:0 4px;
+color: whitesmoke;
+font-size: 1.2rem;
+}
+nav.topnav .container .auth a{
+    text-decoration: none;
+    padding:0 4px ;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+nav.topnav .container .auth span{
+    color: whitesmoke;
+    padding:0 4px ;
+}
+nav.topnav .about{
+    width:100%;
+    padding:0.75rem 7rem;
+    margin:0 auto ;
+    background: rgb(245, 238, 226);
+
+}
+nav.topnav .about i{
+    color: rgb(160, 65, 65);
+    padding-right:1rem;
+    
+}
+nav.topnav .nav{
+    width:100%;
+    padding:0 7rem;
+    color:solid black;
+    background: rgb(160, 65, 65);
+   
+}
+nav.topnav .nav a{
+    text-decoration:none;
+    padding:0.50rem 4px;
+    margin-right:0.8rem;
+    font-size:1.2rem;
+    color:black;   
+}
+nav.topnav .nav a.active{
+    background: rgb(226, 230, 9);
+    color: rgb(160, 65, 65) ;   
+}
+nav.topnav .nav a:hover{
+    background: rgb(226, 230, 9);
+    color: rgb(160, 65, 65) ;
+}
+header.hero{
+   background-image: url(../img/hero.png);
+   background-repeat: no-repeat;
+   height: 600px;
+   
+
+}
+header.hero .container .welcome h3{
+    color: rgb(31, 32, 31);
+    margin-bottom:1rem;
+}
+header.hero .container .welcome span{
+    color: yellow;
+}
+header.hero .container .welcome h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+header.hero .container .welcome p{
+    line-height:0.8;
+    margin:1rem 1rem ;
+    margin-bottom:2rem;
+}
+header.hero .container{
+    margin-top: 10rem;
+}
+section{
+    padding:4rem 0 ;
+}
+section.top-product{
+    background: rgb(245, 238, 226);
+}
+section.top-product .food-slider .food-card{
+    background: darkgrey;
+    padding:1.5rem 0 ;
+    border-radius: 4px;
+    margin-right: -1rem;    
+}
+section.top-product .food-slider .food-card .product-img img{
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+    padding-bottom: 1rem;
+
+}
+hr{
+    border: 1px solid white;
+    opacity: 0.8;
+    margin: 1rem 0;
+}
+
+section.top-product .food-slider .food-card{
+    margin-right:1rem;
+}
+section.top-product .food-slider .food-card button{
+    color:yellow;
+    background: white;
+    border: 2px solid yellow;
+}
+
+section.top-product .food-slider .food-card button:hover{
+    color: sienna;
+    background: yellow;
+}
+section.top-product .food-slider .food-card button i{
+    color: sienna;
+    margin-right:4px;
+}
+section.fresh-meal .container .p-meal{
+    padding-left:2rem;
+    margin-left: 2rem;
+    
+}
+section.fresh-meal .container .p-meal button{
+    margin-top: 14rem;
+}
+section.fresh-meal .container .p-meal h1{
+    margin-bottom: 2rem;
+}
+section.services{
+    background: rgb(245, 238, 226);
+}
+section.services .container .card-wrapper .service-card{
+    background: darkgrey;
+    margin:1rem;
+    padding: 2rem;
+    padding-top: 4rem;
+
+    text-align: center;
+    position: relative;
+}
+section.services .container .card-wrapper .service-card i{
+    position: absolute;
+    top:-14px;
+    left:45%;
+    font-size: 2rem;
+    color: sienna;
+  
+
+}
+
+
